@@ -22,24 +22,34 @@ public class ObjectGrab : MonoBehaviour
                         holdingSmth = true;
                     }
                 }
-            }
-        }
 
-        if (Physics.Raycast(myRay, out myHit, 1000f))
-        {
-            if ((myHit.collider.tag == "Ignore") && (myHit.collider.gameObject.transform != thingtomove))
-            {
-                thingtomove.position = new Vector3(myHit.point.x,4,myHit.point.z);;
-            } 
-            if (Input.GetKeyDown(KeyCode.Mouse1))
-            {
-                if (holdingSmth)
+                if (Input.GetKeyDown(KeyCode.Mouse1))
                 {
-                    thingtomove = null;
-                    holdingSmth = false;
+                    if (holdingSmth)
+                    {
+                        thingtomove = null;
+                        holdingSmth = false;
+                    }
                 }
             }
         }
+        
+
+//        if (Physics.Raycast(myRay, out myHit, 1000f))
+//        {
+//            if ((myHit.collider.tag == "Ignore") && (myHit.collider.gameObject.transform != thingtomove))
+//            {
+//                thingtomove.position = new Vector3(myHit.point.x,4,myHit.point.z);;
+//            } 
+//            if (Input.GetKeyDown(KeyCode.Mouse1))
+//            {
+//                if (holdingSmth)
+//                {
+//                    thingtomove = null;
+//                    holdingSmth = false;
+//                }
+//            }
+//        }
 
 //        if ((Input.GetKeyDown(KeyCode.Mouse0)) && (holdingSmth))
 //        {
