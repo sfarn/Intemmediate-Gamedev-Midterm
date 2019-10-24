@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7343792-06b8-4501-8c6c-264a0791264a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Unity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Bee.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bee.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Bee.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bee.blend1" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionDetect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
+            <state relative-caret-position="-75">
               <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <marker date="1570124119344" expanded="false" signature="6:140" ph="..." />
@@ -116,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <marker date="1571880388952" expanded="false" signature="6:78" ph="..." />
                 <marker date="1571880388952" expanded="true" signature="119:2520" ph="{...}" />
@@ -139,12 +142,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/FacePlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1571890503047" expanded="false" signature="6:78" ph="..." />
+                <marker date="1571890503047" expanded="true" signature="119:213" ph="{...}" />
+                <marker date="1571890503047" expanded="true" signature="168:211" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FacePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PotionCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -160,6 +178,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PotionCreate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/FacePlayer.cs" />
       </list>
     </option>
   </component>
@@ -171,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1950" />
@@ -244,12 +263,12 @@
       <workItem from="1570123247696" duration="916000" />
       <workItem from="1570564572618" duration="5116000" />
       <workItem from="1570732737848" duration="6880000" />
-      <workItem from="1571795591193" duration="6976000" />
+      <workItem from="1571795591193" duration="7691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19888000" />
+    <option name="totallyTimeSpent" value="20603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +329,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/PotionCreate.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionDetect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
+        <state relative-caret-position="-75">
           <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding>
             <marker date="1570124119344" expanded="false" signature="6:140" ph="..." />
@@ -405,7 +424,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
             <marker date="1571880388952" expanded="false" signature="6:78" ph="..." />
             <marker date="1571880388952" expanded="true" signature="119:2520" ph="{...}" />
@@ -419,6 +438,18 @@
             <marker date="1571880388952" expanded="true" signature="2087:2370" ph="{...}" />
             <marker date="1571880388952" expanded="true" signature="2126:2360" ph="{...}" />
             <marker date="1571880388952" expanded="true" signature="2397:2517" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FacePlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1571890503047" expanded="false" signature="6:78" ph="..." />
+            <marker date="1571890503047" expanded="true" signature="119:213" ph="{...}" />
+            <marker date="1571890503047" expanded="true" signature="168:211" ph="{...}" />
           </folding>
         </state>
       </provider>

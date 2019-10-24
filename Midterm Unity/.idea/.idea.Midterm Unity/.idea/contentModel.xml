@@ -6,6 +6,7 @@
     <e p="C:\Users\sfarn\Desktop\nyu game games\Inter game dev\Midterm Project\Midterm Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FacePlayer.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
