@@ -19,6 +19,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             this.transform.Rotate(new Vector3(0, turnSpeed * Time.deltaTime, 0));
+            
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -29,11 +30,19 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             this.transform.Translate(new Vector3(0, 0, moveSpeed * Time.deltaTime));
+            GameManager.Instance.isWalking = true;
         }
-
-        if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
             this.transform.Translate(new Vector3(0, 0, -moveSpeed * Time.deltaTime));
+            GameManager.Instance.isWalking = true;
         }
+        else
+        {
+            GameManager.Instance.isWalking = false;
+        }
+
+
+
     }
 }
