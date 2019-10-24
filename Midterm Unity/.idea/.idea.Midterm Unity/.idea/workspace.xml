@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7343792-06b8-4501-8c6c-264a0791264a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Poition time uwu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Poition time uwu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionDetect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
+            <state relative-caret-position="-45">
               <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <marker date="1570124119344" expanded="false" signature="6:140" ph="..." />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="5" selection-start-line="16" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="149">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <marker date="1570567588476" expanded="false" signature="6:78" ph="..." />
                 <marker date="1570567588476" expanded="true" signature="119:828" ph="{...}" />
@@ -77,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-316">
               <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <marker date="1570737810748" expanded="false" signature="6:78" ph="..." />
@@ -101,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PotionCreate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="480">
               <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <marker date="1570740195708" expanded="false" signature="6:78" ph="..." />
@@ -120,18 +119,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
-                <marker date="1571810903268" expanded="false" signature="6:78" ph="..." />
-                <marker date="1571810903268" expanded="true" signature="119:1780" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="204:1773" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="380:1080" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="528:1070" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="596:795" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="850:1056" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="905:1038" ph="{...}" />
-                <marker date="1571810903268" expanded="true" signature="1091:1767" ph="/* if (Physics.Raycast(myRay, out myHit, 1000f)) ... */" />
+                <marker date="1571880388952" expanded="false" signature="6:78" ph="..." />
+                <marker date="1571880388952" expanded="true" signature="119:2520" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="338:1960" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="514:1183" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="667:1173" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="836:1159" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="1208:1276" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="1278:1954" ph="/* if (Physics.Raycast(myRay, out myHit, 1000f)) ... */" />
+                <marker date="1571880388952" expanded="true" signature="1981:2376" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="2087:2370" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="2126:2360" ph="{...}" />
+                <marker date="1571880388952" expanded="true" signature="2397:2517" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -169,9 +171,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1630" />
-    <option name="y" value="-25" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
@@ -242,12 +244,12 @@
       <workItem from="1570123247696" duration="916000" />
       <workItem from="1570564572618" duration="5116000" />
       <workItem from="1570732737848" duration="6880000" />
-      <workItem from="1571795591193" duration="2571000" />
+      <workItem from="1571795591193" duration="6976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15483000" />
+    <option name="totallyTimeSpent" value="19888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,6 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25955734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -307,7 +310,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/PotionCreate.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionDetect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="-45">
           <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding>
             <marker date="1570124119344" expanded="false" signature="6:140" ph="..." />
@@ -331,23 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="5" selection-start-line="16" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <marker date="1570567588476" expanded="false" signature="6:78" ph="..." />
-            <marker date="1570567588476" expanded="true" signature="119:828" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="200:228" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="247:826" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="290:392" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="430:533" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="571:676" ph="{...}" />
-            <marker date="1570567588476" expanded="true" signature="714:820" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -362,7 +348,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="-316">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <marker date="1570737810748" expanded="false" signature="6:78" ph="..." />
@@ -384,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PotionCreate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="480">
           <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <marker date="1570740195708" expanded="false" signature="6:78" ph="..." />
@@ -399,20 +385,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1570567588476" expanded="false" signature="6:78" ph="..." />
+            <marker date="1570567588476" expanded="true" signature="119:828" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="200:228" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="247:826" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="290:392" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="430:533" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="571:676" ph="{...}" />
+            <marker date="1570567588476" expanded="true" signature="714:820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <marker date="1571810903268" expanded="false" signature="6:78" ph="..." />
-            <marker date="1571810903268" expanded="true" signature="119:1780" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="204:1773" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="380:1080" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="528:1070" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="596:795" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="850:1056" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="905:1038" ph="{...}" />
-            <marker date="1571810903268" expanded="true" signature="1091:1767" ph="/* if (Physics.Raycast(myRay, out myHit, 1000f)) ... */" />
+            <marker date="1571880388952" expanded="false" signature="6:78" ph="..." />
+            <marker date="1571880388952" expanded="true" signature="119:2520" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="338:1960" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="514:1183" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="667:1173" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="836:1159" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="1208:1276" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="1278:1954" ph="/* if (Physics.Raycast(myRay, out myHit, 1000f)) ... */" />
+            <marker date="1571880388952" expanded="true" signature="1981:2376" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="2087:2370" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="2126:2360" ph="{...}" />
+            <marker date="1571880388952" expanded="true" signature="2397:2517" ph="{...}" />
           </folding>
         </state>
       </provider>

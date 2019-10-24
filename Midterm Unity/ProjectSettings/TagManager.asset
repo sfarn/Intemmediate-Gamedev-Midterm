@@ -9,6 +9,7 @@ TagManager:
   - Bee
   - Bucket
   - Wall
+  - Ignore
   layers:
   - Default
   - TransparentFX

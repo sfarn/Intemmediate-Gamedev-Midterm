@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class ObjectGrab : MonoBehaviour
 {
-    public Transform thingtomove;
+    public Transform player;
+    public Transform ingredients;
+    public Transform holdpos;
+    public Transform heldobjtransform;
+    public GameObject heldobj;
     private bool holdingSmth;
+    
 
     void Update()
     {
@@ -13,27 +18,25 @@ public class ObjectGrab : MonoBehaviour
         RaycastHit myHit = new RaycastHit();
         if (Physics.Raycast(myRay, out myHit, 1000f))
         {
-            if ((myHit.collider.tag != "Player")&&(myHit.collider.tag != "Ignore")&&(myHit.collider.gameObject.transform != thingtomove))
+            if ((myHit.collider.tag != "Player")&&(myHit.collider.tag != "Ignore")&&(myHit.collider.gameObject.transform != heldobjtransform))
             {
-                if (Input.GetKeyDown(KeyCode.Mouse0))
+                //if an items clicked on with the left mouse button, pick up
+                if ((Input.GetKeyDown(KeyCode.Mouse0))&&(holdingSmth==false))
                 {
                     {
-                        thingtomove = myHit.collider.gameObject.transform;
+                        heldobjtransform = myHit.collider.gameObject.transform;
+                        heldobj = myHit.collider.gameObject;
                         holdingSmth = true;
-                    }
-                }
-
-                if (Input.GetKeyDown(KeyCode.Mouse1))
-                {
-                    if (holdingSmth)
-                    {
-                        thingtomove = null;
-                        holdingSmth = false;
+                        heldobjtransform.parent = player;
                     }
                 }
             }
         }
-        
+        if (holdingSmth)
+        {
+            holdItem();
+            dropItem();
+        }
 
 //        if (Physics.Raycast(myRay, out myHit, 1000f))
 //        {
@@ -56,5 +59,26 @@ public class ObjectGrab : MonoBehaviour
 //            thingtomove = null;
 //        }
     }
-    
+
+    void dropItem()
+    {
+        //If right mouse button is clicked, drop item
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            if (holdingSmth)
+            {
+                heldobjtransform.parent = ingredients;
+                heldobj.GetComponent<Rigidbody>().velocity=Vector3.zero;
+                heldobjtransform = null;
+                holdingSmth = false;
+            }
+        }
+    }
+
+    void holdItem()
+    {
+        heldobjtransform.position = holdpos.position;
+        heldobjtransform.rotation = holdpos.rotation;
+    }
+
 }
