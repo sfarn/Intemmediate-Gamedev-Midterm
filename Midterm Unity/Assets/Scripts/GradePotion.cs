@@ -11,6 +11,7 @@ public class GradePotion : MonoBehaviour
 
     private void Update()
     {
+        //determine grade
         if (GameManager.Instance.score.Equals(231))
         {
             grade = ("S uwu");
@@ -37,6 +38,7 @@ public class GradePotion : MonoBehaviour
 
         }
 
+        //display final grade
         finalStats.text = ("STATS \n hp: " + GameManager.Instance.stats[0] + "\n str: " +
                            GameManager.Instance.stats[1] + "\n spd: " + GameManager.Instance.stats[2] + "\n def: " +
                            GameManager.Instance.stats[3] + "\n why: " + GameManager.Instance.stats[4] +

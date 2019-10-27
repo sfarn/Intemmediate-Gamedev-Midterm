@@ -14,6 +14,7 @@ public class Hover : MonoBehaviour
 
     void Update()
     {
+        //float up and down at float height a distance of hover height at hover speed
         timer += Time.deltaTime*hoverSpeed;
         currentHeight = Mathf.Sin(timer);
         currentHeight = currentHeight * hoverHeight;

@@ -5,10 +5,9 @@ using UnityEngine;
 public class destroyParticle : MonoBehaviour
 {
     public ParticleSystem ps;
-    void Start () {
-    }
- 
+    
     void Update () {
+        //destroy particle system if it's not in use
         if(ps)
         {
             if(!ps.IsAlive())

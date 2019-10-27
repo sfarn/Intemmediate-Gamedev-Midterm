@@ -7,6 +7,7 @@ public class FacePlayer : MonoBehaviour
     public Transform player;
     void Update()
     {
-     transform.LookAt(player);
+        //look at the player :)
+        transform.LookAt(player);
     }
 }

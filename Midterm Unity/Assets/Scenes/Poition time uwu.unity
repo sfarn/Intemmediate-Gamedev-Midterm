@@ -1440,8 +1440,8 @@ GameObject:
   m_Component:
   - component: {fileID: 208942318}
   - component: {fileID: 208942317}
-  - component: {fileID: 208942316}
   - component: {fileID: 208942319}
+  - component: {fileID: 208942316}
   - component: {fileID: 208942321}
   m_Layer: 0
   m_Name: Main Camera
@@ -3428,6 +3428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3976,6 +3981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
@@ -6637,6 +6647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6720,6 +6735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
@@ -8321,6 +8341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
@@ -10249,6 +10274,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11266,6 +11296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11349,6 +11384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}
@@ -12406,6 +12446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Brick1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9975bfc218dac5e41a4f1313d447abf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ignore
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9975bfc218dac5e41a4f1313d447abf6,
         type: 3}

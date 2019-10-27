@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class Beetorial : MonoBehaviour
 {
+   
    public TextMeshProUGUI dialogue;
    public GameObject beetorial;
    public GameObject textbox;
 
    private void Update()
    {
+      //if you click on the bee, pull up the tutorial
       Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
       RaycastHit myHit = new RaycastHit();
       if (Physics.Raycast(myRay, out myHit, 1000f))
@@ -29,6 +31,7 @@ public class Beetorial : MonoBehaviour
          }
       }
 
+      //if space is hit, close tutorial
       if (Input.GetKey(KeyCode.Space))
       {
          beetorial.SetActive(false);
@@ -37,6 +40,7 @@ public class Beetorial : MonoBehaviour
       }
    }
 
+   //button code
    public void whatToDo()
    {
       dialogue.text = ("BBBBBBBBBBBBB" + "\n" +"(Whatever'll make you happy!" + "\n" + "This is a game about making potions though"+"\n" + "Just drop items into the cauldron by me! I'll tell you the stats)");

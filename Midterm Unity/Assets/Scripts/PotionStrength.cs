@@ -7,14 +7,10 @@ public class PotionStrength : MonoBehaviour
 {
     public ParticleSystem ps;
     private float currentLifetime;
-
-    private void Start()
-    {
-        
-    }
-
+    
     private void Update()
     {
+        //increase sparkles with the potion strength
         currentLifetime = (0.8f + GameManager.Instance.score / 15);
         ps.startLifetime = currentLifetime;
     }

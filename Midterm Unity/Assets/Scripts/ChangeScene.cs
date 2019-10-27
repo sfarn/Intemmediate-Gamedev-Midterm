@@ -9,20 +9,18 @@ public class ChangeScene : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
-        {Debug.Log("uwu");
+        {
+            //start game from start screen
             if (SceneManager.GetSceneByName("Start Screen").Equals(SceneManager.GetActiveScene()))
                  {
-                     Debug.Log("owo");
                      SceneManager.LoadScene(1);
                  }
-
+            
+            //restart game from endscreen
             if (SceneManager.GetSceneByName("youwin").Equals(SceneManager.GetActiveScene()))
                              {
-                                 Debug.Log("owo");
                                  SceneManager.LoadScene(0);
                              }
         }
-        
-
     }
 }

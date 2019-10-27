@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        //if there's already a game manager in the scene destroy the new one
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        //add together all the stats for a score
         score = stats[0] + stats[1] + stats[2] + stats[3] + stats[4];
     }
 }

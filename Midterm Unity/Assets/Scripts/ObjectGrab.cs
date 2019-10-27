@@ -14,6 +14,7 @@ public class ObjectGrab : MonoBehaviour
 
     void Update()
     {
+        //if nothing's being held and the item clicked on is not the bee or part of the background, pick it up
         Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit myHit = new RaycastHit();
         if (Physics.Raycast(myRay, out myHit, 1000f))
@@ -54,6 +55,7 @@ public class ObjectGrab : MonoBehaviour
         }
     }
 
+    //set the held item to a position and rotation in front of player
     void holdItem()
     {
         heldobjtransform.position = holdpos.position;

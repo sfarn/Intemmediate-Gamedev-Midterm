@@ -12,6 +12,7 @@ public class PotionCreate : MonoBehaviour
     public Boolean foundShoe;
     private void OnTriggerEnter(Collider other)
     {
+        //increase stats when an item's dropped into the cauldron
         if (other.tag.Equals("Leaf"))
         {
             GameManager.Instance.stats[2] += 2;
@@ -73,6 +74,7 @@ public class PotionCreate : MonoBehaviour
         }
     }
 
+    //add in a splash when dropped
     void splash()
     {
         Instantiate(splashes);

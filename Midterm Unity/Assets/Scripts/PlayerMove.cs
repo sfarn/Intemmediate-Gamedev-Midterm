@@ -12,8 +12,7 @@ public class PlayerMove : MonoBehaviour
         Move();
     }
 
-
-
+   //move :)
     void Move()
     {
         if (Input.GetKey(KeyCode.D))

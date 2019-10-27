@@ -23,68 +23,33 @@ public class CameraMove : MonoBehaviour
     void Update()
     {
         
-     CameraTurn();
+        CameraTurn();
      
-     if (GameManager.Instance.isWalking==true)
-     {
-         HeadBop(); 
-     }
-     
-
+        if (GameManager.Instance.isWalking==true) 
+        { 
+            HeadBop(); 
+        }
     }
+    //look up when up arrow's hit and down when down arrow's hit
     void CameraTurn()
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            this.transform.Rotate(new Vector3( turnSpeed * Time.deltaTime, 0,0));
+            this.transform.Rotate(new Vector3( -turnSpeed * Time.deltaTime, 0,0));
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            this.transform.Rotate(new Vector3( -turnSpeed * Time.deltaTime, 0,0));
+            this.transform.Rotate(new Vector3( turnSpeed * Time.deltaTime, 0,0));
         }
     }
 
+    //head bobs up and down when walking
     void HeadBop()
     {
         timer += Time.deltaTime*hoverSpeed;
         currentHeight = Mathf.Sin(timer);
         currentHeight = currentHeight * hoverHeight;
         transform.position=new Vector3(transform.position.x,currentHeight+6,transform.position.z);
-//        float waveslice = 0.0f;
-//        float horizontal = Input.GetAxis("Horizontal");
-//        float vertical = Input.GetAxis("Vertical");
-//
-//        Vector3 cSharpConversion = transform.localPosition;
-//
-//        if (Mathf.Abs(horizontal) == 0 && Mathf.Abs(vertical) == 0)
-//        {
-//            timer = 0.0f;
-//        }
-//        else
-//        {
-//            waveslice = Mathf.Sin(timer);
-//            timer = timer + bobbingSpeed;
-//            if (timer > Mathf.PI * 2)
-//            {
-//                timer = timer - (Mathf.PI * 2);
-//            }
-//        }
-//
-//        if (waveslice != 0)
-//        {
-//            float translateChange = waveslice * bobbingAmount;
-//            float totalAxes = Mathf.Abs(horizontal) + Mathf.Abs(vertical);
-//            totalAxes = Mathf.Clamp(totalAxes, 0.0f, 1.0f);
-//            translateChange = totalAxes * translateChange;
-//            cSharpConversion.y = midpoint + translateChange;
-//        }
-//        else
-//        {
-//            cSharpConversion.y = midpoint;
-//        }
-//
-//        transform.localPosition = cSharpConversion;
-
     }
 }

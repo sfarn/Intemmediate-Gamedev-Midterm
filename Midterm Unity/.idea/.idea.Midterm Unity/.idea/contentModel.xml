@@ -6,17 +6,15 @@
     <e p="C:\Users\sfarn\Desktop\nyu game games\Inter game dev\Midterm Project\Midterm Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="GradePotion.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Beetorial.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
           <e p="ChangeScene.cs" t="Include" />
-          <e p="CollisionDetect.cs" t="Include" />
           <e p="destroyParticle.cs" t="Include" />
-          <e p="DontDestroy.cs" t="Include" />
           <e p="FacePlayer.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="GradePotion.cs" t="Include" />
           <e p="Hover.cs" t="Include" />
           <e p="ObjectGrab.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
