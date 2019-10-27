@@ -22,12 +22,13 @@ public class PotionCreate : MonoBehaviour
         }if (other.tag.Equals("Apple"))
         {
             GameManager.Instance.stats[0] += 20;
+            GameManager.Instance.stats[1] += 5;
             other.gameObject.SetActive(false);
             splash();
             dialogue.text = "BBBBBBBBBBBB \n (whoaa +20 HP! and +5 Strength too :0)";
         }if (other.tag.Equals("Shoe"))
         {
-            GameManager.Instance.stats[0] += 20;
+            GameManager.Instance.stats[3] += 22;
             GameManager.Instance.stats[4] += 30;
             other.gameObject.SetActive(false);
             splash();

@@ -29,7 +29,7 @@ public class Beetorial : MonoBehaviour
          }
       }
 
-      if (GameManager.Instance.isWalking==true)
+      if (Input.GetKey(KeyCode.Space))
       {
          beetorial.SetActive(false);
          dialogue.text=(" ");
@@ -43,11 +43,11 @@ public class Beetorial : MonoBehaviour
    }
    public void viewControls()
    {
-      dialogue.text = ("W/S = Move Forward/Backwards"+"\n"+"A/D = Turn Left/Right"+"\n"+"Left/Right Click = Pick Up/Drop Item \n and just move to close dialogue!" );
+      dialogue.text = ("W/S = Move Forward/Backwards"+"\n"+"A/D = Turn Left/Right"+"\n"+"Left/Right Click = Pick Up/Drop Item"+"\n"+"Space = Close Dialogue" );
    }
    public void ratePotion()
    {
-      SceneManager.LoadScene(1);
+      SceneManager.LoadScene(2);
    }
 
    

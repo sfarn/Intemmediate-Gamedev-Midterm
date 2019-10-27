@@ -11,6 +11,7 @@ TagManager:
   - Shoe
   - Berry
   - Rock
+  - Fish
   layers:
   - Default
   - TransparentFX
