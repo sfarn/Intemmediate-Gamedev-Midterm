@@ -11,12 +11,14 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
           <e p="CollisionDetect.cs" t="Include" />
+          <e p="destroyParticle.cs" t="Include" />
           <e p="FacePlayer.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Hover.cs" t="Include" />
           <e p="ObjectGrab.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PotionCreate.cs" t="Include" />
+          <e p="PotionStrength.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

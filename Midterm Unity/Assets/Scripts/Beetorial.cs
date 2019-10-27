@@ -43,7 +43,7 @@ public class Beetorial : MonoBehaviour
    }
    public void viewControls()
    {
-      dialogue.text = ("W/S = Move Forward/Backwards"+"\n"+"A/D = Turn Left/Right"+"\n"+"Left/Right Click = Pick Up/Drop Item" );
+      dialogue.text = ("W/S = Move Forward/Backwards"+"\n"+"A/D = Turn Left/Right"+"\n"+"Left/Right Click = Pick Up/Drop Item \n and just move to close dialogue!" );
    }
    public void ratePotion()
    {

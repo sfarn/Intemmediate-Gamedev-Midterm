@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Poition time uwu.unity
     guid: 151d06694c9bce844b875beed0153766
+  - enabled: 1
+    path: Assets/Scenes/youwin.unity
+    guid: 4173463648619514e8d56429788bf16f
   m_configObjects: {}
